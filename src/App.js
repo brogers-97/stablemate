@@ -24,7 +24,7 @@ function App() {
             element={<Calendar />}
           />
           <Route 
-            path='/horseInfo'
+            path='/horses/:id'
             element={<HorseInfo />}
           />
           <Route 

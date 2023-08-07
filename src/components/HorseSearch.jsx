@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { horses } from '../data/data.js'
+import { Link } from 'react-router-dom'
 import "./horseSearch.css"
 import horseIcon from '../images_icons/icons8-horse-96.png'
 
@@ -115,20 +116,20 @@ export default function HorseSearch() {
 
             <section className='horses-list'>
                 {filteredHorses.map((horse, index) => (
-                    <div key={index} className='horses-list-divs'>
+                    <Link to={`/horses/${horse._id}`} key={index} className='horses-list-divs'>
                         <div>
                             <img src={horseIcon} alt='Horse Icon' />
                         </div>
                         <div>
                             <h2>{horse.name}</h2>
-                            <p>Breed: {horse.breed}</p>
+                            {/* <p>Breed: {horse.breed}</p>
                             <p>Gender: {horse.gender}</p>
                             <p>Reproduction: {horse.reproduction}</p>
                             {horse.gender === 'Mare' && <p>Status: {horse.pregnant ? 'Pregnant' : 'Not Pregnant'}</p>}
-                            <p>Age: {horse.age === 0 ? 'Weanling' : horse.age === 1 ? 'Yearling' : horse.age}</p>
+                            <p>Age: {horse.age === 0 ? 'Weanling' : horse.age === 1 ? 'Yearling' : horse.age}</p> */}
 
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </section>
 

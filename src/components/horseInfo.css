@@ -1,0 +1,56 @@
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+.grid > div {
+    height: 20vh; /* You can adjust as needed */
+    width: 40vw;  /* You can adjust as needed */
+    overflow-y: auto; /* For vertical scrolling if content exceeds the box height */
+    border: 1px solid #ccc; /* Optional, just for better visualization */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.female-grid {
+    grid-template-columns: 40vw 40vw; 
+    grid-template-rows: repeat(4, 20vh);
+    grid-template-areas: 
+        "name pictures"
+        "ultrasound shoeing"
+        "breeding dental"
+        ". deworming";
+}
+
+/* Assigning each div to its respective grid area */
+.female-grid .name { grid-area: name; }
+.female-grid .pictures { grid-area: pictures; }
+.female-grid .ultrasound { grid-area: ultrasound; }
+.female-grid .shoeing { grid-area: shoeing; }
+.female-grid .breeding { grid-area: breeding; }
+.female-grid .dental { grid-area: dental; }
+.female-grid .deworming { grid-area: deworming; }
+
+.male-grid {
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: repeat(4, 20vh);
+    grid-template-areas: 
+        "name pictures"
+        "sperm shoeing"
+        ". dental"
+        ". deworming";
+}
+
+/* Assigning each div to its respective grid area */
+.male-grid .name { grid-area: name; }
+.male-grid .pictures { grid-area: pictures; }
+.male-grid .sperm { grid-area: sperm; }
+.male-grid .shoeing { grid-area: shoeing; }
+.male-grid .dental { grid-area: dental; }
+.male-grid .deworming { grid-area: deworming; }
+
+.grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

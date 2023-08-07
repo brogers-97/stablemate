@@ -1,0 +1,17 @@
+main {
+    margin: 5px 5px 5px 5px;
+}
+
+.search-container {
+    float: right;
+    width: 30%;
+    height: 75vh;
+    border: 1px red solid;
+}
+
+.horses-list {
+    float: left;
+    width: 60%;
+    height: 75vh;
+    border: 1px blue solid;
+}

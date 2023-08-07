@@ -1,17 +1,73 @@
 main {
-    margin: 5px 5px 5px 5px;
+    margin: 20px;
+}
+
+.search-container, .horses-list {
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .search-container {
-    float: right;
-    width: 30%;
-    height: 75vh;
     border: 1px red solid;
+    float: right;
+    width: 35%;
+    height: 75vh;
+    margin-left: 5%;
+    background-color: #f9f9f9;
 }
 
 .horses-list {
+    border: 1px blue solid;
     float: left;
     width: 60%;
     height: 75vh;
-    border: 1px blue solid;
+    overflow-y: auto;
+}
+
+/* Form styles */
+.input-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], select, input[type="checkbox"] {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px; /* Reduced from 15px, because the input-group already has a 15px margin-bottom */
+    margin-right: 20px;
+}
+
+/* Horse list styles */
+.horses-list-divs {
+    display: flex;
+    align-items: center;
+}
+
+.horses-list-divs img {
+    margin-right: 10px;
+}
+
+.horses-list div {
+    border-bottom: 1px solid #eee;
+    padding: 10px 10px;
+}
+
+.horses-list h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.horses-list p {
+    margin: 5px 0;
 }

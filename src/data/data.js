@@ -1,13 +1,13 @@
 // dummy data
 export const horses = [
-    {name: '3030', gender: 'Male', breed: 'Thoroughbred', age: 7, pregnancyStatus: false},
-    {name: 'Rose', gender: 'Female', breed: 'Mustang', age: 5, pregnancyStatus: true},
-    {name: 'Twist', gender: 'Female', breed: 'Arabian', age: 9, pregnancyStatus: false},
-    {name: 'Daisy', gender: 'Female', breed: 'Clydesdale', age: 6, pregnancyStatus: false},
-    {name: 'Outfoxxed', gender: 'Male', breed: 'Pinto', age: 8, pregnancyStatus: false},
-    {name: 'Faith', gender: 'Female', breed: 'Andalusian', age: 7, pregnancyStatus: true},
-    {name: 'Grace', gender: 'Female', breed: 'Friesian', age: 4, pregnancyStatus: false},
-    {name: 'Hope', gender: 'Female', breed: 'Appaloosa', age: 10, pregnancyStatus: true},
-    {name: 'Iggy', gender: 'Male', breed: 'Quarter Horse', age: 3, pregnancyStatus: false},
-    {name: 'Jack', gender: 'Male', breed: 'Tennessee Walker', age: 6, pregnancyStatus: false}
-    ];
+    {name: '3030', gender: 'Stud', breed: 'Thoroughbred', age: 7, pregnant: false, reproduction: 'Stallion'},
+    {name: 'Rose', gender: 'Mare', breed: 'Quarterhorse', age: 5, pregnant: true, reproduction: 'Broodmare'},
+    {name: 'Twist', gender: 'Mare', breed: 'Painted', age: 9, pregnant: false, reproduction: 'Recipient mare'},
+    {name: 'Daisy', gender: 'Mare', breed: 'Thoroughbred', age: 6, pregnant: false, reproduction: 'Broodmare'},
+    {name: 'Outfoxxed', gender: 'Stud', breed: 'Painted', age: 8, pregnant: false, reproduction: 'Stallion'},
+    {name: 'Faith', gender: 'Mare', breed: 'Thoroughbred', age: 7, pregnant: true, reproduction: 'Broodmare'},
+    {name: 'Grace', gender: 'Mare', breed: 'Quarterhorse', age: 4, pregnant: false, reproduction: 'Recipient mare'},
+    {name: 'Hope', gender: 'Mare', breed: 'Painted', age: 10, pregnant: true, reproduction: 'Broodmare'},
+    {name: 'Iggy', gender: 'Stud', breed: 'Quarterhorse', age: 3, pregnant: false, reproduction: 'Stallion'},
+    {name: 'Jack', gender: 'Gelding', breed: 'Thoroughbred', age: 1, pregnant: false, reproduction: 'N/A'}
+];

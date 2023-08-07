@@ -1,0 +1,14 @@
+.home-left{
+    border: 1px red solid;
+    width: 100%;
+}
+.home-right{
+    border: 1px blue solid;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 3px yellow solid;
+}

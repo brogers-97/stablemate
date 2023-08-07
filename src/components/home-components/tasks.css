@@ -1,0 +1,13 @@
+.task-box {
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 30px;
+    height: 400px;
+}
+.task-box h1{
+    border-bottom: 1px black solid;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 11px 0;
+}

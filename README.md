@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Sources
+Horse icon
+<a target="_blank" href="https://icons8.com/icon/Susz57IxuUgX/horse">Horse</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+Stallion pic 
+Photo by <a href="https://unsplash.com/@memofotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Guillermo Mota</a> on <a href="https://unsplash.com/photos/ax2WNRH_bec?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+Mare pic
+Photo by <a href="https://unsplash.com/@kellyforrister?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelly Forrister</a> on <a href="https://unsplash.com/photos/OLL7SNhGeZk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  

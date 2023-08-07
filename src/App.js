@@ -24,11 +24,11 @@ function App() {
             element={<Calendar />}
           />
           <Route 
-            path='/horseinfo'
+            path='/horses/:id'
             element={<HorseInfo />}
           />
           <Route 
-            path='/search'
+            path='/horseSearch'
             element={<HorseSearch />}
           />
         </Routes>
